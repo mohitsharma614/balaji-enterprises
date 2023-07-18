@@ -1,0 +1,17 @@
+#bank-details {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+#bank-details h2 {
+  margin-top: 0;
+}
+
+#bank-details p {
+  margin-bottom: 10px;
+}
