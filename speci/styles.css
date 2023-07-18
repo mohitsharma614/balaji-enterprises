@@ -1,0 +1,77 @@
+/* styles.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.boy{
+  background-color: rgb(45, 55, 72);;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Main styles */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+#item-list h1 {
+  color: whitesmoke;
+  margin-bottom: 40px;
+  font-size: 200%;
+}
+
+
+/* Item list styles */
+.item-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+.item-list h3 {
+  font-weight: bold;
+  font-size: 150%;
+  margin-bottom: 20px;
+}
+
+.item-list li {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.item-list li:hover {
+  transform: scale(1.05);
+}
+
+.item-list li img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
